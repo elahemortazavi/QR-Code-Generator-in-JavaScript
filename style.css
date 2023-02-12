@@ -7,3 +7,12 @@
 body {
     background-color: rgb(128, 99, 155);
 }
+p {
+    color:rgb(38, 28, 48);
+    font-size: 20px;
+
+}
+.btn {
+    color:rgb(38, 28, 48);
+    border-radius: 5px;
+}
