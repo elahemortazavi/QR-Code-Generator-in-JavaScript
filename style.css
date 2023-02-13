@@ -11,16 +11,20 @@ body {
     align-items: center;
     height: 100vh;
 }
-p, h1 {
-    color:rgb(74, 38, 110);
+h1 {
+    color:rgb(65, 7, 123);
     font-size: 30px;
     font-weight: 600;
 
 }
-.btn {
-    color:rgb(38, 28, 48);
-    border-radius: 5px;
+p {
+    color: rgb(74, 38, 110);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+
 }
+
 .container {
     border-radius: 10px;
     border: 2px solid rgb(50, 22, 79);
@@ -31,4 +35,13 @@ p, h1 {
 }
 .container form {
     margin: 15px 0 25px;
+}
+.container form :where(input, button) {
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    margin:5px 0 ;
+    padding: 10px ;
+    font-size: 16px;
 }
